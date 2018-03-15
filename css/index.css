@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Tangerine');
 @import url('https://fonts.googleapis.com/css?family=Cormorant');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500');
 
 /* GENERAL */
 
@@ -87,12 +89,55 @@ nav li:hover {
 
 .work {
 	background-color: white;
+	color: #353535;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
 	/* background-color: #ff5252; */
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.project {
+	width: 40%;
+	background-color: whitesmoke;
+	padding: 20px 20px;
+	padding-bottom: 40px;
+	margin-bottom: 60px;
+	position: relative;
+}
+
+.project h3 {
+	font-size: 3.5vw;
+	border-bottom: 3px solid #ff5252;
+	margin-right: 40%;
+	padding: 10px 0;
+}
+
+.project h3 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.project p {
+	padding: 25px 0;
+}
+
+.project div {
+	position: absolute;
+	bottom: 20px;
+}
+
+.project div a:first-child {
+	padding-right: 20px;
 }
 
 /* ABOUT */
 .about {
-
 	height: 50vh;
 	background-color: #ff5252;
 }
