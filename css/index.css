@@ -26,7 +26,6 @@ h2 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 100vw;
 	height: 100vh;
 	background-color: #353535;
 	color: white;
@@ -36,7 +35,6 @@ h2 {
 .hero h1 {
 	font-size: 15vw;
 	font-family: 'Tangerine', cursive;
-	
 }
 
 .hero div {
@@ -88,7 +86,6 @@ nav li:hover {
 /* WORK */
 
 .work {
-	width: 100vw;
 	height: 50vh;
 	background-color: white;
 	/* background-color: #ff5252; */
@@ -96,12 +93,14 @@ nav li:hover {
 
 /* ABOUT */
 .about {
+
 	height: 50vh;
 	background-color: #ff5252;
 }
 
 /* CONTACT */
 .contact {
+
 	min-height: 100vh;
 	background-color: #353535;
 }
@@ -116,7 +115,7 @@ nav li:hover {
 	font-size: 6vw;
 	position: absolute;
 	bottom: 0;
-	width: 100vw;
+	width: 100%;
 	text-align: center;
 	padding: 20px 0;
 }
