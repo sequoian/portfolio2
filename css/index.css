@@ -90,9 +90,9 @@ nav li:hover {
 .work {
 	background-color: white;
 	color: #353535;
-	font-family: 'Open Sans', sans-serif;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 18px;
+	padding-bottom: 80px;
 	/* background-color: #ff5252; */
 }
 
@@ -125,6 +125,7 @@ nav li:hover {
 
 .project p {
 	padding: 25px 0;
+	line-height: 1.25em;
 }
 
 .project div {
@@ -138,13 +139,31 @@ nav li:hover {
 
 /* ABOUT */
 .about {
-	height: 50vh;
 	background-color: #ff5252;
+	padding-bottom: 80px;
+	color: white;
+}
+
+.about h2 {
+	color: white;
+}
+
+.about p {
+	width: 50%;
+	padding-bottom: 30px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	line-height: 1.25em;
+	text-align: justify;
+	margin: auto;
+}
+
+.about strong {
+	font-weight: 500;
 }
 
 /* CONTACT */
 .contact {
-
 	min-height: 100vh;
 	background-color: #353535;
 }
