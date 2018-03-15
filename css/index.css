@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Tangerine');
 @import url('https://fonts.googleapis.com/css?family=Cormorant');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600');
 
 /* GENERAL */
 
@@ -141,11 +141,11 @@ nav li:hover {
 .about {
 	background-color: #ff5252;
 	padding-bottom: 80px;
-	color: white;
+
 }
 
 .about h2 {
-	color: white;
+
 }
 
 .about p {
@@ -159,7 +159,7 @@ nav li:hover {
 }
 
 .about strong {
-	font-weight: 500;
+	font-weight: 600;
 }
 
 /* CONTACT */
@@ -172,7 +172,22 @@ nav li:hover {
 	color: white;
 }
 
-.thanks {
+.contact p {
+	font-family: 'Cormorant', serif;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	width: 50%;
+	margin: auto;
+	padding-top: 50px;
+	line-height: 1.2em;
+}
+
+.contact a {
+	color: white;
+}
+
+.contact .thanks {
 	color: white;
 	font-family: 'Tangerine', cursive;
 	font-size: 6vw;
