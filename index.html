@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/scroll.js" async></script>
     <title>Zachary Askins</title>
   </head>
   <body>
     <nav>
       <ul>
-        <li>Work</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li id="work-btn">Work</li>
+        <li id="about-btn">About</li>
+        <li id="contact-btn">Contact</li>
       </ul>
     </nav>
     <div class="hero">
@@ -20,7 +21,7 @@
       <div></div>
       <p>Web Developer</p>
     </div>
-    <div class="work">
+    <div class="work" id="work">
       <h2>Work</h2>
       <div class="projects">
         <div class="project">
@@ -89,7 +90,7 @@
         </div>
       </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
       <h2>About</h2>
       <p>
         Hello, my name is Zachary Askins and I am a web developer currently living in Anaheim, 
@@ -107,7 +108,7 @@
         As for the backend, I use <strong>Node.js</strong> with Express, store my data in SQL, and create my APIs using RESTful design.
       </p>
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
       <h2>Contact</h2>
       <p class="info">
         I would love to make something awesome with you!  Send me an email at
