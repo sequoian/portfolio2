@@ -10,7 +10,6 @@
 
 body {
 	position: relative;
-	font-size: 18px;
 }
 
 h2 {
@@ -36,47 +35,50 @@ h2 {
 
 /* HERO */
 
+.hero, nav {
+	font-size: 16px;
+}
+
 .hero {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+	font-size: 16px;
 	background-color: #353535;
 	color: white;
-	cursor: default
+	cursor: default;
 }
 
-.hero h1 {
-	font-size: 15vw;
+h1 {
+	font-size: 4em;
 	font-family: 'Tangerine', cursive;
 }
 
 .hero div {
-	width: 40vw;
-	height: 2px;
+	width: 65vw;
+	height: 1px;
 	background-color: white;
 	border-radius: 3px;
-	margin-top: 10vh;
-	margin-bottom: 5vh;
+	margin-top: 2.5em;
+	margin-bottom: 1.7em;
 }
 
 .hero p {
 	font-family: 'Cormorant', serif;
 	text-transform: uppercase;
-	font-size: 3vw;
+	font-size: 1.25em;
 }
-
-/* NAV */
 
 nav {
 	position: absolute;
 	right: 0;
 	top: 0;
 	color: white;
+	font-size: 18px;
 	font-family: 'Cormorant', serif;
 	text-transform: uppercase;
-	font-size: 2vw;
 }
 
 nav ul {
@@ -87,6 +89,7 @@ nav ul {
 
 nav li {
 	margin-right: 35px;
+	font-size: 1em;
 }
 
 nav li:last-child {
@@ -97,6 +100,57 @@ nav li:hover {
 	border-bottom: 1px solid white;
 	cursor: pointer;
 }
+
+@media (min-width: 450px) {
+	.hero, nav {
+		font-size: 18px;
+	}
+
+	.hero div {
+		width: 12em;
+	}
+}
+
+@media (min-width: 650px) {
+	.hero, nav {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 720px) and (min-height: 600px) {
+	.hero, nav {
+		font-size: 3vw;
+	}
+
+	.hero div {
+		height: 2px;
+	}
+}
+
+@media (min-width: 1000px) {
+	nav {
+		font-size: 30px;
+	}
+}
+
+/* @media (min-width: 1000px) {
+	h1 {
+		font-size: 190px;
+	}
+
+	.hero p {
+		font-size: 39px;
+	}
+
+	nav {
+		font-size: 25px;
+	}
+
+	.hero div {
+		margin-top: 70px;
+		margin-bottom: 34px;
+	}
+} */
 
 /* WORK */
 
