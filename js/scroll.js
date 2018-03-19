@@ -5,7 +5,7 @@ function scrollTo(elem) {
   })
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+function initListeners() {
   var work = document.getElementById('work')
   var workbtn = document.getElementById('work-btn')
   workbtn.addEventListener('click', function() {
@@ -21,4 +21,11 @@ document.addEventListener('DOMContentLoaded', function() {
   contactbtn.addEventListener('click', function() {
     scrollTo(contact)
   })
-})
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initListeners)
+} else {
+  initListeners()
+}
+
